@@ -53,8 +53,8 @@ http://localhost:8080/api/request?userId=gaurika
 User Request → Check timestamps → Remove old requests → Check limit → Allow / Block
 ## Demo
 
-<p align="center">
-  <img src="demo.gif" width="500"/>
+<p align="left">
+  <img src="demo.gif" width="450"/>
 </p>
 ---
 ##  System Flow
