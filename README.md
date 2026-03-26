@@ -55,7 +55,9 @@ User Request → Check timestamps → Remove old requests → Check limit → Al
 ---
 ##  System Flow
 
-![Rate Limiter Diagram](spring_boot_rate_limiter_diagram_v2.svg)
+<p align="center">
+  <img src="spring_boot_rate_limiter_diagram_v2.svg" width="600"/>
+</p>
 
 ##  How to Run
 
