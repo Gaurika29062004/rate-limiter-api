@@ -1,4 +1,4 @@
-# 🚀 Rate Limiter API
+#  Rate Limiter API
 
 ![Java](https://img.shields.io/badge/Java-17-orange)
 ![Spring Boot](https://img.shields.io/badge/SpringBoot-3.x-brightgreen)
@@ -8,14 +8,14 @@ A backend service built using Spring Boot that limits API requests per user usin
 
 ---
 
-## 🧠 Problem
+##  Problem
 
 APIs can be abused by sending too many requests in a short time.
 This project prevents that by enforcing request limits per user.
 
 ---
 
-## ⚙️ Features
+##  Features
 
 * 🚦 Per-user rate limiting
 * ⏱ Sliding window algorithm
@@ -31,33 +31,31 @@ This project prevents that by enforcing request limits per user.
 - **Build Tool:** Maven  
 - **Concurrency:** ConcurrentHashMap, synchronized collections  
 - **Architecture:** RESTful API  
----
 
-## 📌 API Endpoint
+##  API Endpoint
 
 GET /api/request?userId=<userId>
 
 ### Example
 
 http://localhost:8080/api/request?userId=gaurika
-![Uploading Screenshot 2026-03-26 at 5.26.54 PM.png…]()
 
 ---
 
-## ⏱ Rate Limiting Logic
+##  Rate Limiting Logic
 
 * Max **3 requests per 10 seconds**
 * Further requests are blocked
 
 ---
 
-## 🔄 How It Works
+##  How It Works
 
 User Request → Check timestamps → Remove old requests → Check limit → Allow / Block
 
 ---
 
-## ▶️ How to Run
+##  How to Run
 
 git clone https://github.com/Gaurika29062004/rate-limiter-api.git
 cd rate-limiter-api
@@ -65,17 +63,21 @@ cd rate-limiter-api
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
-src/main/java/com/example/ratelimiter
-├── controller
-│     └── TestController.java
-└── service
-└── RateLimiterService.java
-
+rate-limiter-api/
+├── src/main/java/com/example/ratelimiter
+│ ├── controller
+│ │ └── TestController.java
+│ └── service
+│ └── RateLimiterService.java
+├── src/main/resources
+│ └── application.properties
+├── pom.xml
+└── README.md
 ---
 
-## 🚧 Future Improvements
+##  Future Improvements
 
 * Redis-based distributed rate limiting
 * Configurable limits
@@ -83,6 +85,6 @@ src/main/java/com/example/ratelimiter
 
 ---
 
-## 👩‍💻 Author
+##  Author
 
 Gaurika Gupta
