@@ -54,7 +54,7 @@ User Request → Check timestamps → Remove old requests → Check limit → Al
 ## Demo
 
 <p align="center">
-  <img src="demo.gif" width="700"/>
+  <img src="demo.gif" width="500"/>
 </p>
 ---
 ##  System Flow
