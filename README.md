@@ -16,10 +16,10 @@ This project prevents that by enforcing request limits per user.
 
 ##  Features
 
-* 1. Per-user rate limiting
-* 2. Sliding window algorithm
-* 3. Thread-safe implementation
-* 4. REST API endpoint
+*  Per-user rate limiting
+*  Sliding window algorithm
+*  Thread-safe implementation
+*  REST API endpoint
 
 ---
 
