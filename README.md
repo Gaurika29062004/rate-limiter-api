@@ -55,7 +55,9 @@ User Request → Check timestamps → Remove old requests → Check limit → Al
 ---
 ##  System Flow
 
-![Rate Limiter Diagram](spring_boot_rate_limiter_diagram_v2.svg)
+<p align="center">
+  <img src="spring_boot_rate_limiter_diagram_v2.svg" width="600"/>
+</p>
 
 ##  How to Run
 
@@ -64,21 +66,11 @@ cd rate-limiter-api
 ./mvnw spring-boot:run
 
 ---
+## Project Structure
 
-##  Project Structure
-
-rate-limiter-api/
-├── src/main/java/com/example/ratelimiter
-│ ├── controller
-│ │ └── TestController.java
-│ └── service
-│ └── RateLimiterService.java
-├── src/main/resources
-│ └── application.properties
-├── pom.xml
-└── README.md
----
-
+<p align="center">
+  <img src="project_structure.png" width="700"/>
+</p>
 ##  Future Improvements
 
 * Redis-based distributed rate limiting
