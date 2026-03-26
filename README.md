@@ -16,14 +16,14 @@ This project prevents that by enforcing request limits per user.
 
 ##  Features
 
-* 🚦 Per-user rate limiting
-* ⏱ Sliding window algorithm
-* 🔒 Thread-safe implementation
-* 🌐 REST API endpoint
+*  Per-user rate limiting
+*  Sliding window algorithm
+*  Thread-safe implementation
+*  REST API endpoint
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Language:** Java  
 - **Framework:** Spring Boot  
@@ -55,8 +55,8 @@ User Request → Check timestamps → Remove old requests → Check limit → Al
 ---
 ##  System Flow
 
-<p align="center">
-  <img src="spring_boot_rate_limiter_diagram_v2.svg" width="600"/>
+<p align="left">
+  <img src="spring_boot_rate_limiter_diagram_v2.svg" width="550"/>
 </p>
 
 ##  How to Run
@@ -68,8 +68,8 @@ cd rate-limiter-api
 ---
 ## Project Structure
 
-<p align="center">
-  <img src="project_structure.png" width="700"/>
+<p align="left">
+ <img src="project_structure.png" width="500"/>
 </p>
 ##  Future Improvements
 
