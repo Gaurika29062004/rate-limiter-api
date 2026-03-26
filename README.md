@@ -68,7 +68,7 @@ cd rate-limiter-api
 ---
 ## Project Structure
 
-<p align="center">
+<p align="left">
   <img src="project_structure.png" width="700"/>
 </p>
 ##  Future Improvements
