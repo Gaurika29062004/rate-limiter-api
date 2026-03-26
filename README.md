@@ -51,6 +51,7 @@ http://localhost:8080/api/request?userId=gaurika
 ##  How It Works
 
 User Request → Check timestamps → Remove old requests → Check limit → Allow / Block
+---
 ## Demo
 
 <p align="left">
