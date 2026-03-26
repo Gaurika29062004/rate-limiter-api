@@ -56,7 +56,7 @@ User Request → Check timestamps → Remove old requests → Check limit → Al
 ##  System Flow
 
 <p align="center">
-  <img src="spring_boot_rate_limiter_diagram_v2.svg" width="600"/>
+  <img src="spring_boot_rate_limiter_diagram_v2.svg" width="550"/>
 </p>
 
 ##  How to Run
@@ -69,7 +69,7 @@ cd rate-limiter-api
 ## Project Structure
 
 <p align="left">
- <img src="project_structure.png" width="600"/>
+ <img src="project_structure.png" width="550"/>
 </p>
 ##  Future Improvements
 
