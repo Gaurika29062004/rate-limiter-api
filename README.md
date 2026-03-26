@@ -2,7 +2,6 @@
 
 ![Java](https://img.shields.io/badge/Java-17-orange)
 ![Spring Boot](https://img.shields.io/badge/SpringBoot-3.x-brightgreen)
-![Status](https://img.shields.io/badge/status-active-success)
 
 A backend service built using Spring Boot that limits API requests per user using a sliding window algorithm.
 
