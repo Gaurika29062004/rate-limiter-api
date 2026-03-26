@@ -53,6 +53,9 @@ http://localhost:8080/api/request?userId=gaurika
 User Request → Check timestamps → Remove old requests → Check limit → Allow / Block
 
 ---
+## 🔄 System Flow
+
+![Rate Limiter Diagram](spring_boot_rate_limiter_diagram_v2.svg)
 
 ##  How to Run
 
