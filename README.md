@@ -33,8 +33,7 @@ This project prevents that by enforcing request limits per user.
 
 ##  API Endpoint
 
-GET /api/request?userId=<userId>
-
+GET /api/request?userId=\<userId\>
 ### Example
 
 http://localhost:8080/api/request?userId=gaurika
@@ -51,13 +50,16 @@ http://localhost:8080/api/request?userId=gaurika
 ##  How It Works
 
 User Request → Check timestamps → Remove old requests → Check limit → Allow / Block
+
 ---
+
 ## Demo
 
 <p align="left">
   <img src="demo.gif" width="400"/>
 </p>
 ---
+
 ##  System Flow
 
 <p align="left">
